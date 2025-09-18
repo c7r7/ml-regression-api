@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "ML Regression API is running!"
+    return "ML Regression API is running! It's my second time"
 
 @app.route('/predict', methods=['POST'])
 def predict():
